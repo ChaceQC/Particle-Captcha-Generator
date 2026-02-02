@@ -21,7 +21,7 @@ pip install numpy opencv-python-headless pillow
 
 ```python
 import base64
-from Particle-Captcha-Generator import generate_particle_video
+from Particle_Captcha_Generator import generate_particle_video
 
 # 1. 生成验证码 (返回 base64 字符串)
 video_b64 = generate_particle_video("AB89")
