@@ -10,7 +10,7 @@ import math
 
 def generate_particle_video(text):
     width, height = 320, 120
-    fps = 30
+    fps = 60
     duration = 3.0  # 稍微延长一点，给凝聚和消散留时间
     total_frames = int(fps * duration)
 
@@ -167,3 +167,4 @@ def generate_particle_video(text):
         pass
 
     return base64.b64encode(video_data).decode()
+
