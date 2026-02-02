@@ -17,19 +17,23 @@ pip install numpy opencv-python-headless pillow
 
 ## 快速开始
 
-- 建议仅传入四位字符；
+- 建议仅传入四位数字；
 
 ```python
 import base64
 from Particle_Captcha_Generator import generate_particle_video
 
 # 1. 生成验证码 (返回 base64 字符串)
-video_b64 = generate_particle_video("AB89")
+video_b64 = generate_particle_video("6669")
 
 # 2. 前端嵌入示例
 html_snippet = f'<video src="data:video/webm;base64,{video_b64}" autoplay loop>'
 print(f"视频已生成，Base64长度: {len(video_b64)}")
 ```
+
+## 示例展示
+
+[tmpnjw0kld0.webm](https://github.com/user-attachments/assets/981da5b2-6049-4a8c-a833-1a1ccff42aea)
 
 ## ⚙️ 参数详情 (Configuration)
 
