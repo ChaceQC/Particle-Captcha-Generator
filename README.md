@@ -33,7 +33,8 @@ print(f"视频已生成，Base64长度: {len(video_b64)}")
 
 ## 示例展示
 
-[tmpnjw0kld0.webm](https://github.com/user-attachments/assets/981da5b2-6049-4a8c-a833-1a1ccff42aea)
+[tmpjfwqgsfg.webm](https://github.com/user-attachments/assets/6d1b77ec-2114-4071-a1b2-1ddda7bde5cd)
+
 
 ## ⚙️ 参数详情 (Configuration)
 
